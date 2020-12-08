@@ -1,8 +1,10 @@
 module.exports = {
   // theme: 'awesome',
   title: "文档管理",
+  dest: "./dist",
+  base: "/DOCS/",
+  repo: "https://github.com/DM-Cherry/DOCS",
   description: "这是一条测试，哈哈",
-  base: "./",
   themeConfig: {
     nav: [{ text: "首页", link: "/home/description" }],
     sidebar: [
