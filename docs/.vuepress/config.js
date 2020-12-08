@@ -1,16 +1,19 @@
 module.exports = {
   // theme: 'awesome',
-  title: "文档管理",
-  dest: "./dist",
-  base: "/DOCS/",
-  repo: "https://github.com/DM-Cherry/DOCS",
-  description: "这是一条测试，哈哈",
+  title: "文档管理", // 设置网站标题
+  dest: "./dist", // 设置输出目录
+  base: "/DOCS/", // 设置站点根路径
+  repo: "https://github.com/DM-Cherry/DOCS", // 添加 github 链接
+  description: "这是一条测试，哈哈", // 项目描述
+  // 页面路由配置
   themeConfig: {
+    // 导航栏
     nav: [{ text: "首页", link: "/home/description" }],
+    // 侧边栏
     sidebar: [
       {
         title: "模版说明",
-        collapsable: false,
+        collapsable: false, // 是否自动展开
         children: [
           ["/home/description", "模版介绍"],
           ["/home/conformation", "模版架构"],
