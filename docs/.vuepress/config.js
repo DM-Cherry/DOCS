@@ -17,6 +17,7 @@ module.exports = {
         children: [
           ["/home/description", "模版介绍"],
           ["/home/conformation", "模版架构"],
+          ["/home/babel", "依赖包介绍"],
         ],
       },
       {
@@ -36,7 +37,25 @@ module.exports = {
         collapsable: false,
         children: [
           ["/tool/ESLINT", "Eslint 相关配置"],
-          ["/tool/SourceTree", "SourceTree 相关配置"],
+          // ["/tool/SourceTree", "SourceTree 相关配置"],
+        ],
+      },
+      {
+        title: "框架（React）",
+        collapsable: false,
+        children: [
+          ["/react/START", "起步"],
+          ["/react/JSX", "JSX"],
+          ["/react/COMPONENT", "组件"],
+          ["/react/SETSTATE", "如何正确使用setState"],
+          ["/react/COMPOISTION", "组件复合"],
+          ["/react/REDUX", "Redux"],
+          ["/react/REACTROUTER", "react-router"],
+          ["/react/PURECOMPONENT", "PureComponent"],
+          ["/react/LIFECYCLE", "生命周期"],
+          ["/react/PLUG", "antd基础配置"],
+          ["/react/HOOK", "认识hook"],
+          ["/react/DIALOG", "弹窗类组件设计与实现"],
         ],
       },
     ],

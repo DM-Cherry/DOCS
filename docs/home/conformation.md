@@ -75,7 +75,9 @@
 |-- scss                      公共样式存放目录
 |-- src                       项目的开发目录
 | |-- components              页面公用的组件存放的目录
+| |-- api                     api接口
 | |-- core                    工具类目录
+| | |-- const.js              公共常量导出
 | |-- router                  页面路由目录
 | |-- store                   数据状态管理目录
 | |-- views                   路由页面目录
